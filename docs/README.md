@@ -15,58 +15,40 @@ Our goal is to develop a user-friendly marketplace platform that allows users to
 | **Niyatqobulov Humoyun** | 📝 Content Creator        | Develops and curates multimedia content, integrates it into the web pages, and ensures engaging user experience. |
 | **Rustamov Elbek**     | 🔍 Quality Assurance (QA)   | Tests and debugs the application, writes test scripts, and ensures code meets project standards. |
 
-🏗️ Project Structure
+# 🚀 Project Structure  
 
-The project is structured into different branches based on roles:
+The project is structured into different branches based on roles:  
 
-🚀 main - Stable and finalized code (no direct changes).
+- **`main`** – Stable and finalized code (**no direct changes**).  
+- **`frontend`** – Frontend development work.  
+- **`ui-ux`** – UI/UX design implementation.  
+- **`content`** – Content integration.  
+- **`qa-testing`** – Testing and debugging.  
+- **`project-mgmt`** – Documentation and project tracking.  
 
-🎨 frontend - Frontend development work.
+---
 
-🎭 ui-ux - UI/UX design implementation.
+## 🎯 Getting Started  
 
-✍️ content - Content integration.
+### ✅ Prerequisites  
 
-🛠️ qa-testing - Testing and debugging.
+Before working on this project, ensure you have the following installed:  
 
-📂 project-mgmt - Documentation and project tracking.
+- **Git** – [Download Git](https://git-scm.com/downloads)  
+- **Node.js** (if applicable) – [Download Node.js](https://nodejs.org/)  
+- **Code Editor** (VS Code, WebStorm, etc.)  
 
-🚀 Getting Started
+### 🔥 Cloning the Repository  
 
-✅ Prerequisites
+```bash
+git clone https://github.com/your-repo/project-name.git
+cd project-name
+```
 
-Make sure you have the following installed:
+### 📜 Contribution Guidelines
 
-🖥️ Git
+- ✅ Always work in your assigned branch.
+- ✅ Before starting work, pull the latest changes: git pull origin main
+- ✅ Create meaningful commit messages.
+- ✅ Submit a pull request when your work is ready to be merged into main.
 
-📦 Node.js (if needed for frontend packages)
-
-✏️ A text editor (e.g., VS Code)
-
-📥 Clone the Repository
-
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
-
-🔀 Switch to Your Branch
-
-Replace your-branch-name with your assigned branch:
-
-git checkout your-branch-name
-
-📤 Commit and Push Changes
-
-After making changes:
-
-git add .
-git commit -m "Your commit message"
-git push origin your-branch-name
-
-📜 Contribution Guidelines
-
-✅ Always work in your assigned branch.
-✅ Before starting work, pull the latest changes: git pull origin main✅ Create meaningful commit messages.✅ Submit a pull request when your work is ready to be merged into main.
-
-📄 License
-
-This project is for educational purposes only.
