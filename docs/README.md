@@ -45,7 +45,7 @@ git clone https://github.com/your-repo/project-name.git
 cd project-name
 ```
 
-###📜 Contribution Guidelines
+### 📜 Contribution Guidelines
 
 - ✅ Always work in your assigned branch.
 - ✅ Before starting work, pull the latest changes: git pull origin main
