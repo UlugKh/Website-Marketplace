@@ -43,3 +43,12 @@ Before working on this project, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-repo/project-name.git
 cd project-name
+```
+
+###📜 Contribution Guidelines
+
+- ✅ Always work in your assigned branch.
+- ✅ Before starting work, pull the latest changes: git pull origin main
+- ✅ Create meaningful commit messages.
+- ✅ Submit a pull request when your work is ready to be merged into main.
+
