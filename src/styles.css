@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     background-color: #24252A;
+    scroll-behavior: smooth;
 }
 li,a,button{
     font-family: 'Montserrat', sans-serif;
@@ -14,6 +15,11 @@ li,a,button{
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
     display: flex;
     justify-content : flex-end;
     align-items: center;
@@ -42,6 +48,10 @@ header{
     color: #0088a9;
 }
 
+nav a.active{
+    color: #0ef;
+}
+
 button{
     margin-left: 20px;
     padding: 9px 25px;
@@ -54,4 +64,19 @@ button{
 
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Sections styling */
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section:nth-child(odd){
+    background-color: #323946;
 }
