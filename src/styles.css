@@ -29,7 +29,7 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
-    height: 50px;
+    height: 65px;
     width:60px;
 }
 
@@ -200,8 +200,8 @@ footer {
     margin-right:auto;
 }
 .footer_logo{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 180px;
 }
 
 .social_media {
