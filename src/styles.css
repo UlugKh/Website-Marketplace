@@ -88,6 +88,10 @@ section{
     font-weight: 700;
 }
 
+.Home{
+    min-height: 100vh;
+}
+
 .animationContainer{
     margin-bottom: 30px;
     display: flex;
@@ -110,7 +114,6 @@ section{
 .thirdContainer{
     margin-bottom: 0;
 }
-
 .Item{
     width: 250px;
     height: 125px;
@@ -128,32 +131,24 @@ section{
     font-size: 16px;
     background-color: #323946;
 }
-
 .item1{
     animation-delay: calc(20s/5*( 5 - 1) *-1 );
 }
-
 .Item:hover{
     transform: scale(1.2);
 }
-
 .item2{
     animation-delay: calc(20s/5*(5 - 2) *-1)
 }
-
 .item3{
     animation-delay: calc(20s/5*( 5 - 3) *-1)
 }
-
 .item4{
     animation-delay: calc(20s/5*( 5 - 4)*-1)
 }
-
-
 .item5{
     animation-delay: calc(20s/5*( 5 - 5)*-1)
 }
-
 .item12{
     animation-delay: calc(20s/5*( 5 - 1.5) *-1 );
 }
@@ -169,8 +164,6 @@ section{
 .item52{
     animation-delay: calc(20s/5*( 5 - 0.5) *-1 );
 }
-
-
 
 /*Animation*/
 @keyframes scrollLeft{
