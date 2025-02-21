@@ -54,6 +54,18 @@ nav a.active{
     color: #0ef;
 }
 
+.About{
+    max-height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #edf0f1;
+    text-align: center;
+    padding: 40px 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
 button{
     margin-left: 20px;
     padding: 9px 25px;
@@ -70,13 +82,101 @@ button:hover{
 
 /* Sections styling */
 section{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 80vh;
     font-size: 100px;
     color: #fff;
     font-weight: 700;
+}
+
+.animationContainer{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0)
+    );
+}
+.thirdContainer{
+    margin-bottom: 0;
+}
+
+.Item{
+    width: 250px;
+    height: 125px;
+    background-color: #323946;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(250px * 5),100%);
+    animation: scrollLeft 20s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+.Item p{
+    font-size: 16px;
+    background-color: #323946;
+}
+
+.item1{
+    animation-delay: calc(20s/5*( 5 - 1) *-1 );
+}
+
+.Item:hover{
+    transform: scale(1.2);
+}
+
+.item2{
+    animation-delay: calc(20s/5*(5 - 2) *-1)
+}
+
+.item3{
+    animation-delay: calc(20s/5*( 5 - 3) *-1)
+}
+
+.item4{
+    animation-delay: calc(20s/5*( 5 - 4)*-1)
+}
+
+
+.item5{
+    animation-delay: calc(20s/5*( 5 - 5)*-1)
+}
+
+.item12{
+    animation-delay: calc(20s/5*( 5 - 1.5) *-1 );
+}
+.item22{
+    animation-delay: calc(20s/5*( 5 - 2.5) *-1 );
+}
+.item32{
+    animation-delay: calc(20s/5*( 5 - 3.5) *-1 );
+}
+.item42{
+    animation-delay: calc(20s/5*( 5 - 4.5) *-1 );
+}
+.item52{
+    animation-delay: calc(20s/5*( 5 - 0.5) *-1 );
+}
+
+
+
+/*Animation*/
+@keyframes scrollLeft{
+    to{
+        left: -200px;
+    }
 }
 
 section:nth-child(odd){
