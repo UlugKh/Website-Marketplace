@@ -175,7 +175,7 @@ section{
 /*Animation*/
 @keyframes scrollLeft{
     to{
-        left: -200px;
+        left: -250px;
     }
 }
 
