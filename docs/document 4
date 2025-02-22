@@ -1,0 +1,32 @@
+# 📄 Project Documentation  
+
+## 📅 2025-02-21  
+
+### ✅ Progress Today  
+- **Elbek (QA Tester)** completed the **login page**, which exceeded expectations.  
+  - Followed the **designer's wireframe** perfectly.  
+  - Implemented **backend functionality**, including **Google sign-in**.  
+
+- The **pace has increased** as the deadline approaches.  
+  - **All team members** started **actively asking for tasks**.  
+  - **UI/UX designer** and **media member** needed guidance on their responsibilities.  
+
+### ❌ Issues & Concerns  
+- The **frontend developer's commit** from yesterday wasn't **pull requested to merge** into **main**.  
+- **Teammates are not regularly fetching updates** to their branches from **main**.  
+- **Merge conflict risk:** Elbek's **login page** code needs to be **aligned with the frontend**.  
+- The **frontend developer** hasn't been communicating much, leading to potential **code conflicts**.  
+
+### 🎯 Next Steps  
+- **Encouraged the team** about the approaching **deadline**, urging productivity.  
+- **Promoted communication**, especially with the **frontend developer**.  
+- Awaiting the **frontend developer's response** to resolve **merge conflicts**.  
+- **Plan to merge commits** from **login** and **frontend**, then **pull request** to **main**.  
+- Focus on **perfecting current designs** before creating **new ones**.  
+
+### 💬 Communication Efforts  
+- **Reminded everyone** of their **responsibilities**.  
+- **Offered support** as a **software engineer**, but no requests for help yet.  
+- **Encouraged teammates** to **ask for tasks** and **stay productive**.  
+- Explained the situation to the **frontend developer** on **Telegram**.  
+
