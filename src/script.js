@@ -15,3 +15,11 @@ window.addEventListener('scroll', () =>{
         }
     })
 })
+
+// Handle sign-up button click
+if (signUpBtn) {
+    signUpBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href = 'login.html';
+    });
+}

@@ -1,0 +1,62 @@
+/* Make sure body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef; /* Light gray background */
+}
+
+/* Center content inside */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style the button */
+button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #005582;
+}
+
+/* Position the "Back to Home" button in the top-left corner */
+#home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent; /* Make background transparent */
+    color: #0073b1;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between arrow and text */
+}
+
+/* Add hover effect */
+#home:hover {
+    color: #005582;
+}
+
+/* Style for the arrow */
+#home::before {
+    content: "←"; /* Left arrow */
+    font-size: 18px;
+}
