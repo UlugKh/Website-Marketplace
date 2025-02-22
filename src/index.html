@@ -22,7 +22,6 @@
  </header>
 
  <section class="Home" id="home"></section>
-
  <section class="About" id="about">
      <div class="animationContainer">
          <div class="Item item1">
@@ -78,10 +77,16 @@
          </div>
      </div>
  </section>
-
  <section id="contact">
 
  </section>
+
+ <div class="popup" id="popup">
+     <img src="tick.png" alt="tick">
+     <h2>Thank you</h2>
+     <p>Your details successfully submitted.</p>
+     <button onclick="closePopup()">OK</button>
+ </div>
 
 <footer>
     <div class="footer_content1">
@@ -167,7 +172,7 @@
                 </p>
                 <div class="input">
                 <input class="inputField" type="email" placeholder="Email">
-                <button class="btn">
+                <button class="btn" onclick="openPopup()">
                     Subscribe
                 </button>
                 </div>

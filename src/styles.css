@@ -319,3 +319,53 @@ footer {
     height: 40px;
     width: 200px;
 }
+
+/*Popoup*/
+.popup{
+    background-color: white;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1%);
+    border-radius: 6px;
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.popup h2{
+    background-color: white;
+    margin: 10px 0;
+    padding: 0;
+}
+.popup p{
+    background-color: white;
+    margin: 10px 0;
+    padding: 0;
+}
+.popup img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) ;
+}
+.popup button{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2) ;
+}
+
+.openPopup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    transition: all 0.3s ease 0s;
+}
