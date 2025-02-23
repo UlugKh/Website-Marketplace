@@ -1,21 +1,3 @@
-// Firebase Configuration (Ensure this matches your Firebase project)
-const firebaseConfig = {
-    apiKey: "AIzaSyCN4xgS2pUoLHPb2-hgPPTwwDT_Yrc3NMY",
-    authDomain: "market-auth-123.firebaseapp.com",
-    projectId: "market-auth-123",
-    storageBucket: "market-auth-123.appspot.com",
-    messagingSenderId: "654776143696",
-    appId: "1:654776143696:web:8482959ed3f1644fc32655"
-};
-
-// Initialize Firebase (Check if already initialized)
-if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-} else {
-    firebase.app(); // Use existing instance
-}
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const auth = firebase.auth();
     const db = firebase.firestore();

@@ -1,32 +1,3 @@
-// Ensure firebaseConfig is defined only ONCE
-const firebaseConfig = {
-    apiKey: "AIzaSyCN4xgS2pUoLHPb2-hgPPTwwDT_Yrc3NMY",
-    authDomain: "market-auth-123.firebaseapp.com",
-    projectId: "market-auth-123",
-    storageBucket: "market-auth-123.appspot.com", // Fix the wrong domain
-    messagingSenderId: "654776143696",
-    appId: "1:654776143696:web:8482959ed3f1644fc32655"
-};
-
-// Initialize Firebase only if it hasn't been initialized
-if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-}
-
-// Firebase services
-const auth = firebase.auth();
-const db = firebase.firestore();
-const userContent = document.body;  // Will hide content initially
-
-auth.onAuthStateChanged(user => {
-    if (user && window.location.pathname.includes("login.html")) {
-        // Hide content until data is ready
-        userContent.style.display = "none";
-
-        window.location.href = "user.html"; // Redirect to user info page
-    }
-});
-
 console.log("Firebase initialized successfully!");
 
 
