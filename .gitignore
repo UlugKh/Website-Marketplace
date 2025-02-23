@@ -1,5 +1,5 @@
 # Ignore Firebase Config
-assets/js/config.js
+src/config.js
 
 # Node.js dependencies
 node_modules/
