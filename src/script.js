@@ -6,7 +6,7 @@ window.addEventListener('scroll', () =>{
     sectionEls.forEach(section => {
         if(section.offsetTop - 150 <= window.scrollY ){
             currentSection = section.id;
-            //small change
+            //small changeg
         }
     })
     navLinkEls.forEach(link => {
