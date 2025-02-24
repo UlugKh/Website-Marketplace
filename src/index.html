@@ -9,7 +9,7 @@
 </head>
 <body>
  <header>
-     <img class="logo" src="Market_logo.jpg" alt="logo">
+     <img class="logo" src="Logo.png" alt="logo">
      <nav>
         <ul class="navLinks">
             <li><a class ="nav_link active" href="#home">Home</a></li>
@@ -17,22 +17,87 @@
             <li><a href="#contact" class="nav_link">Contact</a></li>
         </ul>
      </nav>
-         <a href="#" class="button"><button>Sign Up</button></a>
+         <a href="login.html" class="button"><button>Sign Up</button></a>
 
  </header>
- <section id="home">Home</section>
- <section id="about">About</section>
- <section id="contact">Contact</section>
+
+ <section class="Home" id="home"></section>
+ <section class="About" id="about">
+     <div class="animationContainer">
+         <div class="Item item1">
+             <p>Item1</p>
+         </div>
+         <div class="Item item2">
+             <p>Item2</p>
+         </div>
+         <div class="Item item3">
+             <p>Item3</p>
+         </div>
+         <div class="Item item4">
+             <p>Item4</p>
+         </div>
+         <div class="Item item5">
+             <p>Item5</p>
+         </div>
+     </div>
+
+     <div class="animationContainer">
+         <div class="Item item12">
+             <p>Item1</p>
+         </div>
+         <div class="Item item22">
+             <p>Item2</p>
+         </div>
+         <div class="Item item32">
+             <p>Item3</p>
+         </div>
+         <div class="Item item42">
+             <p>Item4</p>
+         </div>
+         <div class="Item item52">
+             <p>Item5</p>
+         </div>
+     </div>
+
+     <div class="animationContainer thirdContainer">
+         <div class="Item item1">
+             <p>Item1</p>
+         </div>
+         <div class="Item item2">
+             <p>Item2</p>
+         </div>
+         <div class="Item item3">
+             <p>Item3</p>
+         </div>
+         <div class="Item item4">
+             <p>Item4</p>
+         </div>
+         <div class="Item item5">
+             <p>Item5</p>
+         </div>
+     </div>
+ </section>
+ <section id="contact">
+
+ </section>
+
+ <div class="popup" id="popup">
+     <img src="tick.png" alt="tick">
+     <h2>Thank you</h2>
+     <p>Your details successfully submitted.</p>
+     <button onclick="closePopup()">OK</button>
+ </div>
 
 <footer>
     <div class="footer_content1">
-        <img class = "footer_logo" src="Market_logo.jpg" alt="logo">
+        <img class = "footer_logo" src="Logo.png" alt="logo">
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
         <br>
         <h3>Follow Us</h3>
         <div class="social_media">
-            <i class="facebookBtn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+            <i class="facebookBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                 <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"></path>
                  </svg>
             </i>
@@ -108,7 +173,7 @@
                 </p>
                 <div class="input">
                 <input class="inputField" type="email" placeholder="Email">
-                <button class="btn">
+                <button class="btn" onclick="openPopup()">
                     Subscribe
                 </button>
                 </div>
