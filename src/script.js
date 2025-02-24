@@ -16,8 +16,7 @@ window.addEventListener('scroll', () =>{
     })
 })
 
-
-/*popup*/
+  /*popup*/
 let  popup = document.querySelector('.popup');
 
  function openPopup(){
@@ -27,3 +26,12 @@ let  popup = document.querySelector('.popup');
  function closePopup(){
      popup.classList.remove('openPopup');
  }
+  
+// Handle sign-up button click
+if (signUpBtn) {
+    signUpBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href = 'login.html';
+    });
+}
+
