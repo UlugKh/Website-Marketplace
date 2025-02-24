@@ -1,5 +1,6 @@
 console.log("Firebase initialized successfully!");
 
+const userContent = document.body; 
 
 document.addEventListener("DOMContentLoaded", () => {
     // Handle Email/Password Login
@@ -60,5 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("home").addEventListener("click", () => {
         window.location.href = "index.html";  // Redirect to login page
+    });
+
+    auth.onAuthStateChanged(user => {
+        if (user && window.location.pathname.includes("login.html")) {
+            // Hide content until data is ready
+            userContent.style.display = "none";
+    
+            window.location.href = "user.html"; // Redirect to user info page
+        }
     });
 });
