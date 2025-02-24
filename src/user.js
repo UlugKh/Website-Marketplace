@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const auth = firebase.auth();
-    const db = firebase.firestore();
     const userContent = document.body;  // Will hide content initially
 
     // Hide content until data is ready
