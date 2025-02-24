@@ -4,13 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: white;
     scroll-behavior: smooth;
 }
 li,a,button{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: #edf0f1;
+    color: black;
     text-decoration: none;
 }
 
@@ -117,7 +117,8 @@ section{
 .Item{
     width: 250px;
     height: 125px;
-    background-color: #323946;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 6px;
     position: absolute;
     left: max(calc(250px * 5),100%);
@@ -129,7 +130,8 @@ section{
 }
 .Item p{
     font-size: 16px;
-    background-color: #323946;
+    background-color: white;
+    color: black;
 }
 .item1{
     animation-delay: calc(20s/5*( 5 - 1) *-1 );
@@ -172,9 +174,7 @@ section{
     }
 }
 
-section:nth-child(odd){
-    background-color: #323946;
-}
+
 
 /*Footer style beginning*/
 footer {
@@ -182,7 +182,7 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    color: #edf0f1;
+    color: black;
     text-align: center;
     padding: 40px 10%;
     border-top: 1px solid #edf0f1;
@@ -195,7 +195,6 @@ footer {
     flex-direction: column;
     width: 400px;
     min-height: 90%;
-    background-color: #24252A;
     padding: 20px ;
     margin-right:auto;
 }
@@ -221,7 +220,6 @@ footer {
     padding: 46.6px;
     width: 400px;
     min-height: 90%;
-    background-color: #24252A;
     margin-right:auto;
 }
 
@@ -233,6 +231,7 @@ footer {
 }
 .UsefulLink{
     padding:10px;
+    color: black;
     display: block;
     justify-content: left;
     align-items: flex-start;
@@ -243,7 +242,6 @@ footer {
     width: 100%;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: #24252A;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -266,14 +264,12 @@ footer {
 }
 .Nav ul li a{
     font-size: 16px;
-    color: #edf0f1;
 }
 
 .footer_content3{
     padding: 46px;
     width: 400px;
     min-height: 90%;
-    background-color: #24252A;
     margin-right:auto;
 }
 .footer_content3_location{
@@ -293,7 +289,6 @@ footer {
 
 .btn{
     background-color: #0088a9;
-    color: #fff;
     padding: 10px 10px;
     border-radius: 50px;
     cursor: pointer;
@@ -313,9 +308,8 @@ footer {
 .inputField{
     border-radius: 50px;
     padding-left: 20px;
-    background-color: #323946;
-    color: #edf0f1;
-    border: none;
+    color: black;
+    border: 1px solid black;
     height: 40px;
     width: 200px;
 }
