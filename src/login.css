@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-color: #f3f2ef;
     margin: 0;
 }
@@ -74,7 +74,7 @@ input {
 }
 
 .btn-primary {
-    width: 108%;
+    width: 106%;
     padding: 12px;
     background-color: #0073b1;
     border: none;
@@ -85,9 +85,9 @@ input {
 }
 
 .btn-secondary {
-    width: 100%;
+    width: 105%;
     padding: 10px;
-    background-color: white;
+    background-color: #0073b1;
     border: 1px solid #ccc;
     font-size: 16px;
     border-radius: 4px;
@@ -105,9 +105,10 @@ input {
     margin-top: 15px;
     font-size: 14px;
 }
+
 button {
     background-color: #0073b1;
-    color: black;
+    color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -119,14 +120,14 @@ button {
 
 button:hover {
     background-color: #005582;
-    color: white;
+    color: black;
 }
 
 /* Position the "Back to Home" button in the top-left corner */
 #home {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 0px;
+    left: 0px;
     background-color: transparent; /* Make background transparent */
     color: #0073b1;
     border: none;
