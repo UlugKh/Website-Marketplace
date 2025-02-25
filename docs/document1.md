@@ -7,10 +7,12 @@
 - **Explained project requirements, nearing deadline, and responsibilities** to teammates.  
 - Provided **instructions on how to get started and contribute**.  
 - **Reminded teammates** about daily commits in Telegram.  
-- **Briefed teammates in person** at university.  
+- **Briefed teammates in person** at university.
+- **Frontend** has been created and is in development.
 
 ### ❌ Issues & Concerns  
-- **No commits or communication** from teammates on Telegram or GitHub.  
+- **No commits or communication** from most teammates on Telegram or GitHub.  
+- **Only frontend** has made a meaningfull commit.
 - **Reminder sent** to all members urging them to complete their tasks.  
 
 ### 🎯 Next Steps  
