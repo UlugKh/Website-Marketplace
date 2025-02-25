@@ -55,3 +55,55 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function openPaymentModal() {
+    document.getElementById("paymentModal").style.display = "flex";
+}
+
+
+function closePaymentModal() {
+    document.getElementById("paymentModal").style.display = "none";
+}
+
+
+window.onclick = function (event) {
+    let modal = document.getElementById("paymentModal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const modal = document.getElementById("paymentModal");
+    const closeBtn = document.querySelector(".close");
+    const checkoutBtn = document.querySelector(".checkout-btn");
+
+    // Function to open the modal
+    window.openPaymentModal = function () {
+        if (modal) {
+            modal.style.display = "flex";  // Show modal
+        } else {
+            console.error("Modal element not found!");
+        }
+    };
+
+    // Function to close the modal
+    window.closePaymentModal = function () {
+        if (modal) {
+            modal.style.display = "none";  // Hide modal
+        }
+    };
+
+    // Add event listener to Close button
+    if (closeBtn) {
+        closeBtn.addEventListener("click", closePaymentModal);
+    }
+
+    // Close modal when clicking outside the modal content
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            closePaymentModal();
+        }
+    });
+});
+

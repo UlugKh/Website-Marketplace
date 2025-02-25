@@ -8,18 +8,21 @@
     <script defer src="script.js"></script>
 </head>
 <body>
- <header>
-     <img class="logo" src="Logo.png" alt="logo">
-     <nav>
-        <ul class="navLinks">
-            <li><a class ="nav_link active" href="#home">Home</a></li>
-            <li><a href="about.html" class="nav_link">About</a></li>
-            <li><a href="#contact" class="nav_link">Contact</a></li>
-        </ul>
-     </nav>
-         <a href="login.html" class="button"><button>Sign Up</button></a>
-
- </header>
+    <header>
+        <img class="logo" src="Logo.png" alt="logo">
+        <nav>
+            <ul class="navLinks">
+                <li><a class="nav_link active" href="#home">Home</a></li>
+                <li><a href="about.html" class="nav_link">About</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="login.html" class="button"><button class="signup-btn">Sign Up</button></a>
+            <button class="checkout-btn" onclick="openPaymentModal()">Checkout</button>
+        </div>
+    </header>
+    
 
  <div id="about-section">
     <div id="text-content">
@@ -118,7 +121,12 @@
      <button onclick="closePopup()">OK</button>
  </div>
 
-
+ <div id="paymentModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closePaymentModal()">&times;</span>
+        <iframe src="checkout.html" class="payment-frame"></iframe>
+    </div>
+</div>
 
 <footer>
     <div class="footer_content1">
