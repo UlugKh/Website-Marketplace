@@ -15,3 +15,23 @@ window.addEventListener('scroll', () =>{
         }
     })
 })
+
+  /*popup*/
+let  popup = document.querySelector('.popup');
+
+ function openPopup(){
+     popup.classList.add('openPopup');
+ }
+
+ function closePopup(){
+     popup.classList.remove('openPopup');
+ }
+  
+// Handle sign-up button click
+if (signUpBtn) {
+    signUpBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.location.href = 'login.html';
+    });
+}
+

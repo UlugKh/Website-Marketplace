@@ -1,0 +1,150 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f2ef;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #0073b1;
+    font-size: 14px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #0073b1;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    width: 108%;
+    padding: 12px;
+    background-color: #0073b1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+button {
+    background-color: #0073b1;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block; /* Makes each button appear on a new line */
+    width: 100%;  /* Make buttons full-width */
+}
+
+button:hover {
+    background-color: #005582;
+    color: white;
+}
+
+/* Position the "Back to Home" button in the top-left corner */
+#home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent; /* Make background transparent */
+    color: #0073b1;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between arrow and text */
+}
+
+/* Add hover effect */
+#home:hover {
+    color: #005582;
+}
+
+/* Style for the arrow */
+#home::before {
+    content: "←"; /* Left arrow */
+    font-size: 18px;
+}
