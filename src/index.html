@@ -9,7 +9,7 @@
 </head>
 <body>
  <header>
-     <img class="logo" src="Market_logo.jpg" alt="logo">
+     <img class="logo" src="Logo.png" alt="logo">
      <nav>
         <ul class="navLinks">
             <li><a class ="nav_link active" href="#home">Home</a></li>
@@ -20,13 +20,77 @@
          <a href="login.html" class="button"><button>Sign Up</button></a>
 
  </header>
- <section id="home">Home</section>
- <section id="about">About</section>
- <section id="contact">Contact</section>
+
+ <section class="Home" id="home"></section>
+ <section class="About" id="about">
+     <div class="animationContainer">
+         <div class="Item item1">
+             <p>Item1</p>
+         </div>
+         <div class="Item item2">
+             <p>Item2</p>
+         </div>
+         <div class="Item item3">
+             <p>Item3</p>
+         </div>
+         <div class="Item item4">
+             <p>Item4</p>
+         </div>
+         <div class="Item item5">
+             <p>Item5</p>
+         </div>
+     </div>
+
+     <div class="animationContainer">
+         <div class="Item item12">
+             <p>Item1</p>
+         </div>
+         <div class="Item item22">
+             <p>Item2</p>
+         </div>
+         <div class="Item item32">
+             <p>Item3</p>
+         </div>
+         <div class="Item item42">
+             <p>Item4</p>
+         </div>
+         <div class="Item item52">
+             <p>Item5</p>
+         </div>
+     </div>
+
+     <div class="animationContainer thirdContainer">
+         <div class="Item item1">
+             <p>Item1</p>
+         </div>
+         <div class="Item item2">
+             <p>Item2</p>
+         </div>
+         <div class="Item item3">
+             <p>Item3</p>
+         </div>
+         <div class="Item item4">
+             <p>Item4</p>
+         </div>
+         <div class="Item item5">
+             <p>Item5</p>
+         </div>
+     </div>
+ </section>
+ <section id="contact">
+
+ </section>
+
+ <div class="popup" id="popup">
+     <img src="tick.png" alt="tick">
+     <h2>Thank you</h2>
+     <p>Your details successfully submitted.</p>
+     <button onclick="closePopup()">OK</button>
+ </div>
 
 <footer>
     <div class="footer_content1">
-        <img class = "footer_logo" src="Market_logo.jpg" alt="logo">
+        <img class = "footer_logo" src="Logo.png" alt="logo">
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
         <br>
@@ -109,7 +173,7 @@
                 </p>
                 <div class="input">
                 <input class="inputField" type="email" placeholder="Email">
-                <button class="btn">
+                <button class="btn" onclick="openPopup()">
                     Subscribe
                 </button>
                 </div>
