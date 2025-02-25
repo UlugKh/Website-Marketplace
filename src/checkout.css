@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e8f0fe; /* Light blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.payment-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 360px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 20px; /* Space between elements */
+}
+
+.payment-container:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+h2 {
+    margin-bottom: 20px; /* Add some space below the header */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase space between form groups */
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0056b3; /* Dark blue for labels */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 10px; /* Space below inputs */
+}
+
+input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.card-details {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px; /* Space below card details */
+}
+
+.pay-btn {
+    width: 100%;
+    background: linear-gradient(45deg, #007BFF, #0056b3); /* Shades of blue */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase; /* Cool text transform */
+}
+
+.pay-btn:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
