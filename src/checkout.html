@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<div class="payment-container">
+  <h2>Payment Details</h2>
+  <div class="form-group">
+    <label>Cardholder Name</label>
+    <input type="text" id="cardholder" placeholder="Humoyun Niyatqobulov">
+  </div>
+  <div class="form-group">
+    <label>Card Number</label>
+    <input type="text" id="cardNumber" placeholder="1234 5678 9101 1121" maxlength="19">
+  </div>
+  <div class="form-group card-details">
+    <input type="text" id="expiryDate" placeholder="MM/YY" maxlength="5">
+    <input type="text" id="cvv" placeholder="CVV" maxlength="3">
+  </div>
+  <button class="pay-btn" onclick="processPayment()">Pay Now</button>
+</div>
+
+<script src="checkout.js"></script>
+
+</body>
+</html>
