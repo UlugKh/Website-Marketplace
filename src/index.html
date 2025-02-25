@@ -8,20 +8,23 @@
     <script defer src="script.js"></script>
 </head>
 <body>
- <header>
-     <img class="logo" src="Logo.png" alt="logo">
-     <nav>
+<header>
+    <img class="logo" src="Logo.png" alt="logo">
+    <nav>
         <ul class="navLinks">
-            <li><a class ="nav_link active" href="#home">Home</a></li>
+            <li><a class="nav_link active" href="#home">Home</a></li>
             <li><a href="#about" class="nav_link">About</a></li>
             <li><a href="#contact" class="nav_link">Contact</a></li>
         </ul>
-     </nav>
-         <a href="login.html" class="button"><button>Sign Up</button></a>
+    </nav>
+    <div class="header-buttons">
+        <a href="login.html" class="button"><button class="signup-btn">Sign Up</button></a>
+        <button class="checkout-btn" onclick="openPaymentModal()">Checkout</button>
+    </div>
+</header>
 
- </header>
 
- <section class="Home" id="home"></section>
+<section class="Home" id="home"></section>
  <section class="About" id="about">
      <div class="animationContainer">
          <div class="Item item1">
@@ -93,6 +96,7 @@
          </div>
      </div>
  </section>
+
  <section id="contact">
 
  </section>

@@ -36,3 +36,21 @@ if (signUpBtn) {
     });
 }
 
+
+function openPaymentModal() {
+    document.getElementById("paymentModal").style.display = "flex";
+}
+
+
+function closePaymentModal() {
+    document.getElementById("paymentModal").style.display = "none";
+}
+
+
+window.onclick = function (event) {
+    let modal = document.getElementById("paymentModal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
