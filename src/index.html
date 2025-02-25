@@ -8,22 +8,44 @@
     <script defer src="script.js"></script>
 </head>
 <body>
- <header>
-     <img class="logo" src="Logo.png" alt="logo">
-     <nav>
-        <ul class="navLinks">
-            <li><a class ="nav_link active" href="#home">Home</a></li>
-            <li><a href="#top" class="nav_link">Top</a></li>
-            <li><a href="#About" class="nav_link">Review</a></li>
-            <li><a href="catalog.html" class="nav_link"><img width="28" height="28" src="https://img.icons8.com/ios-glyphs/47/shopping-cart--v1.png" alt="shopping-cart--v1"/></a></li>
-        </ul>
-     </nav>
-         <a href="login.html" class="button"><button>Sign Up</button></a>
+    <header>
+        <img class="logo" src="Logo.png" alt="logo">
+        <nav>
+            <ul class="navLinks">
+                <li><a class="nav_link active" href="#home">Home</a></li>
+                <li><a href="about.html" class="nav_link">About</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+                <li><a href="catalog.html" class="nav_link"><img width="28" height="28" src="https://img.icons8.com/ios-glyphs/47/shopping-cart--v1.png" alt="shopping-cart--v1"/></a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="login.html" class="button"><button class="signup-btn">Sign Up</button></a>
+            <button class="checkout-btn" onclick="openPaymentModal()">Checkout</button>
+        </div>
+    </header>
+    
 
- </header>
+ <div id="about-section">
+    <div id="text-content">
+        <h1 id="main-title">To be or not to be</h1>
+        <h2 id="subtitle">About us</h2>
+        <p id="text-1">from here</p>
+        <p id="text-2">to here</p>
+    </div>
+
+    <div class="image-container">
+        <img src="laptop.jpg" alt="Laptop with shopping cart" class="cart-image">
+    </div>
+</div>
+
+
+
 
  <section class="Home" id="home">
-     <div class="hero-section">
+     
+
+ <section class="Home" id="home">
+   <div class="hero-section">
          <h1>Welcome to Our Online Shop</h1>
          <p>Find the best deals on top products</p>
          <a href="catalog.html" class="shop-now">Shop Now</a>
@@ -44,6 +66,29 @@
                  <h3>Product 3</h3>
                  <p>$14.99</p>
              </div>
+           </section>
+ <section class="About" id="about">
+     <div class="animationContainer">
+         <div class="Item item1">
+             <p>KD 15</p>
+             <img src="KD15.jpg" alt="Image 1" width="290" height="174">
+         </div>
+         <div class="Item item2">
+             <p>Kobe 6</p>
+             <img src="Kobe_Shoes.jpg" alt="Image 2" width="375" height="130">
+         </div>
+         <div class="Item item3">
+             <p>Kyrie 8</p>
+             <img src="Kyrie_infinity.jpg" alt="Image 3" width="300" height="125">
+         </div>
+         <div class="Item item4">
+             <p>Lebron 20</p>
+             <img src="Lebron20.png" alt="Image 4" width="497" height="200">
+         </div>
+         <div class="Item item5">
+             <p>PG6</p>
+             <img src="PG6.jpg" alt="Image 5" width="300" height="200">
+
          </div>
      </div>
  </section>
@@ -56,7 +101,8 @@
         <div class="ItemContainer">
             <p class="ItemName">Chess Board</p>
 
-            <img src="chessboard.jpg" alt="">
+
+     <img src="chessboard.jpg" alt="">
 
             <div class="Description">
                 <button class="TopSellerBadge">Top Seller</button>
@@ -77,6 +123,35 @@
              <p>Price: $4.45 </p>
 
              <button class="Buy">Buy</button>
+             <img src="chessboard.jpg" alt="">
+
+         <div class="Description">
+             <button class="TopSellerBadge">Top Seller</button>
+             <p>Price: $4.45 </p>
+
+             <button class="Buy">Buy</button>
+           
+     <div class="animationContainer">
+         <div class="Item item12">
+             <p>KD 15</p>
+             <img src="KD15.jpg" alt="Image 1" width="290" height="174">
+         </div>
+         <div class="Item item22">
+             <p>Kobe 6</p>
+             <img src="Kobe_Shoes.jpg" alt="Image 2" width="375" height="130">
+         </div>
+         <div class="Item item32">
+             <p>Kyrie 8</p>
+             <img src="Kyrie_infinity.jpg" alt="Image 3" width="300" height="125">
+         </div>
+         <div class="Item item42">
+             <p>Lebron 20</p>
+             <img src="Lebron20.png" alt="Image 4" width="497" height="200">
+         </div>
+         <div class="Item item52">
+             <p>PG 6</p>
+             <img src="PG6.jpg" alt="Image 5" width="300" height="200">
+
          </div>
 
          <a href="#" class="SeeMore">See more</a>
@@ -84,13 +159,28 @@
         <div class="ItemContainer">
          <p class="ItemName">Chess Board</p>
 
-         <img src="chessboard.jpg" alt="">
 
-         <div class="Description">
-             <button class="TopSellerBadge">Top Seller</button>
-             <p>Price: $4.45 </p>
+     <div class="animationContainer thirdContainer">
+         <div class="Item item1">
+             <p>KD 15</p>
+             <img src="KD15.jpg" alt="Image 1" width="290" height="174">
+         </div>
+         <div class="Item item2">
+             <p>Kobe 6</p>
+             <img src="Kobe_Shoes.jpg" alt="Image 2" width="375" height="130">
+         </div>
+         <div class="Item item3">
+             <p>Kyrie 8</p>
+             <img src="Kyrie_infinity.jpg" alt="Image 3" width="300" height="125">
+         </div>
+         <div class="Item item4">
+             <p>Lebron 20</p>
+             <img src="Lebron20.png" alt="Image 4" width="497" height="200">
+         </div>
+         <div class="Item item5">
+             <p>PG 6</p>
+             <img src="PG6.jpg" alt="Image 5" width="300" height="200">
 
-             <button class="Buy">Buy</button>
          </div>
 
          <a href="#" class="SeeMore">See more</a>
@@ -121,6 +211,13 @@
      <p>Your details successfully submitted.</p>
      <button onclick="closePopup()">OK</button>
  </div>
+
+ <div id="paymentModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closePaymentModal()">&times;</span>
+        <iframe src="checkout.html" class="payment-frame"></iframe>
+    </div>
+</div>
 
 <footer>
     <div class="footer_content1">
@@ -212,7 +309,6 @@
                 </button>
                 </div>
             </div>
-
         </div>
     </div>
 
