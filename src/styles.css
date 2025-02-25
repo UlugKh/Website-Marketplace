@@ -363,3 +363,49 @@ footer {
     transform: translate(-50%,-50%) scale(1);
     transition: all 0.3s ease 0s;
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.animated-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: imageMove 10s infinite alternate;
+}
+
+.text-container {
+    color: white;
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.animated-text {
+    animation: textFadeIn 2s ease-out;
+}
+
+@keyframes imageMove {
+    0% { transform: scale(1) translateX(0); }
+    100% { transform: scale(1.1) translateX(-10px); }
+}
+
+@keyframes textFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

@@ -36,3 +36,22 @@ if (signUpBtn) {
     });
 }
 
+//aboout page
+window.addEventListener('DOMContentLoaded', () => {
+    const image = document.querySelector('.animated-image');
+    const textElements = document.querySelectorAll('.animated-text');
+
+    window.addEventListener('mousemove', (e) => {
+        const { innerWidth, innerHeight } = window;
+        const moveX = (e.clientX / innerWidth) * 20 - 10;
+        const moveY = (e.clientY / innerHeight) * 20 - 10;
+        image.style.transform = `scale(1.1) translate(${moveX}px, ${moveY}px)`;
+    });
+
+    textElements.forEach((el, index) => {
+        el.style.transition = `opacity 1s ease ${index * 0.3}s, transform 1s ease ${index * 0.3}s`;
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+    });
+});
+
