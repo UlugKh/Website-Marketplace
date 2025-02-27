@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById("home").addEventListener("click", () => {
     window.location.href = "index.html";  // Redirect to login page
 });
+});
 
 auth.onAuthStateChanged(user => {
     if (user && window.location.pathname.includes("login.html")) {
@@ -43,7 +44,4 @@ auth.onAuthStateChanged(user => {
         // }, 5000);
         window.location.href = "user.html"; // Redirect to user info page
     }
-});
-
-
 });
